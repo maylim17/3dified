@@ -21,7 +21,7 @@ if (!isset($product)) {
 }
 
 $section = "shop";
-$pageTitle = $product["name"];
+$pageTitle = $product["title"];
 include("inc/header.php"); ?>
 
 		<div class="section page">
