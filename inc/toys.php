@@ -20,56 +20,56 @@ $products[101] = array(
 	"description" => "A customizable key chain! So cool!",
 	"price" => 18,
 	"username" => "Andy",
-    "img" => "img/shirts/shirt-101.jpg"
+    "img" => "https://drive.google.com/uc?export=view&id=0B0U8rhej0Qg8TEdqUHNTM1M4Q1U"
 );
 $products[102] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/shirts/shirt-101.jpg"
+    "img" => "https://drive.google.com/uc?export=view&id=0B0U8rhej0Qg8TEdqUHNTM1M4Q1U"
 );
 $products[103] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/shirts/shirt-101.jpg"
+    "img" => "https://drive.google.com/uc?export=view&id=0B0U8rhej0Qg8TEdqUHNTM1M4Q1U"
 );
 $products[104] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/shirts/shirt-101.jpg"
+    "img" => "https://drive.google.com/uc?export=view&id=0B0U8rhej0Qg8TEdqUHNTM1M4Q1U"
 );
 $products[105] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/shirts/shirt-101.jpg"
+    "img" => "https://drive.google.com/uc?export=view&id=0B0U8rhej0Qg8TEdqUHNTM1M4Q1U"
 );
 $products[106] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/shirts/shirt-101.jpg"
+    "img" => "https://drive.google.com/uc?export=view&id=0B0U8rhej0Qg8TEdqUHNTM1M4Q1U"
 );
 $products[107] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/shirts/shirt-101.jpg"
+    "img" => "https://drive.google.com/uc?export=view&id=0B0U8rhej0Qg8TEdqUHNTM1M4Q1U"
 );
 $products[108] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/shirts/shirt-101.jpg"
+    "img" => "https://drive.google.com/uc?export=view&id=0B0U8rhej0Qg8TEdqUHNTM1M4Q1U"
 );
 
 ?>
