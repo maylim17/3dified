@@ -23,50 +23,50 @@ $products[101] = array(
     "img" => "img/lifestyle/1.jpeg"
 );
 $products[102] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Handphone Holder",
+    "description" => "Holds phone",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/lifestyle/2.jpeg"
 );
 $products[103] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Burger Ornament",
+    "description" => "Please do not eat",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/lifestyle/3.jpeg"
 );
 $products[104] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Iphone Cover",
+    "description" => "Red phone cover",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/lifestyle/4.jpeg"
 );
 $products[105] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Lamp Cover",
+    "description" => "Nuff said",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/lifestyle/5.jpeg"
 );
 $products[106] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Handphone Stand+Amp",
+    "description" => "Holds phone. Amps Sound",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/lifestyle/6.jpeg"
 );
 $products[107] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Pencil Holder",
+    "description" => "Blue pencil holder",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/lifestyle/7.jpeg"
 );
 $products[108] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Blue Spinwheel",
+    "description" => "Cute little spinwheel",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/lifestyle/8.jpeg"
