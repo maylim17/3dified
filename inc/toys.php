@@ -45,7 +45,7 @@ $products[104] = array(
 );
 $products[105] = array(
     "title" => "Frog",
-    "description" => "It's a frog.",
+    "description" => "It&rsquo;s a frog.",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/toys/5.jpeg"
@@ -58,14 +58,14 @@ $products[106] = array(
     "img" => "img/toys/6.jpeg"
 );
 $products[107] = array(
-    "title" => "Makers' Lab Key Chain",
+    "title" => "Makers&rsquo; Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/toys/7.jpeg"
 );
 $products[108] = array(
-    "title" => "Makers' Lab Key Chain",
+    "title" => "Makers&rsquo; Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",

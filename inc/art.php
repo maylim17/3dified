@@ -24,21 +24,21 @@ $products[101] = array(
 );
 $products[102] = array(
     "title" => "Alphabet Ball",
-    "description" => "Isn't that sweet?",
+    "description" => "Isn&rsquo;t that sweet?",
     "price" => 28,
     "username" => "Andy",
     "img" => "img/art/2.jpeg"
 );
 $products[103] = array(
     "title" => "Moose",
-    "description" => "Who wouldn't want a moose in their house? I know I would.",
+    "description" => "Who wouldn&rsquo;t want a moose in their house? I know I would.",
     "price" => 15,
     "username" => "Andy",
     "img" => "img/art/3.jpeg"
 );
 $products[104] = array(
     "title" => "Lamp",
-    "description" => "It's so fluffy I'm gonna die!",
+    "description" => "It&rsquo;s so fluffy I&rsquo;m gonna die!",
     "price" => 15,
     "username" => "Andy",
     "img" => "img/art/4.jpeg"
@@ -59,7 +59,7 @@ $products[106] = array(
 );
 $products[107] = array(
     "title" => "Turkey",
-    "description" => "It ain't thanksgiving material, that's for sure.",
+    "description" => "It ain&rsquo;t thanksgiving material, that&rsquo;s for sure.",
     "price" => 28,
     "username" => "Andy",
     "img" => "img/art/7.jpeg"
