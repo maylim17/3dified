@@ -1,6 +1,11 @@
 <?php 
 
-include("inc/guest.php"); 
+if (isset($_GET["collection"])) {
+	$collectionname = $_GET["collection"];
+	include("inc/$collectionname.php");
+} else {
+	$collectionname = 0;
+}
 
 if (isset($_GET["id"])) {
 	$product_id = $_GET["id"];
@@ -9,13 +14,12 @@ if (isset($_GET["id"])) {
 	}
 }
 
-
 if (!isset($product)) {
 	header("Location: shop.php");
 	exit();
 }
 
-$section = "design";
+$section = "shop";
 $pageTitle = $product["title"];
 include("inc/header.php"); ?>
 
@@ -67,7 +71,7 @@ include("inc/header.php"); ?>
 							</td>
 						</tr>
 						</table>
-						<!-- <input type="submit" value="Add to Cart" name="submit"> -->
+						<input type="submit" value="Add to Cart" name="submit">
 					</form>
 
 				</div>
