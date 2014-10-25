@@ -1,0 +1,75 @@
+<?php
+
+function get_list_view_html($product_id, $product) {
+    
+    $output = "";
+
+    $output = $output . "<li>";
+    $output = $output . '<a href="design.php?collection=art&id=' . $product_id . '">';
+    $output = $output . '<img src="' . $product["img"] . '">';
+    $output = $output . "<p>View Details</p>";
+    $output = $output . "</a>";
+    $output = $output . "</li>";
+
+    return $output;
+}
+
+$products = array();
+$products[101] = array(
+	"title" => "Hand of Midas",
+	"description" => "Holy Moley this looks good!",
+    "price" => 28,
+    "username" => "Andy",
+    "img" => "img/art/1.jpeg"
+);
+$products[102] = array(
+    "title" => "Wedding",
+    "description" => "Isn't that sweet?",
+    "price" => 28,
+    "username" => "Andy",
+    "img" => "img/art/2.jpeg"
+);
+$products[103] = array(
+    "title" => "Moose",
+    "description" => "Who wouldn't want a moose in their house? I know I would.",
+    "price" => 15,
+    "username" => "Andy",
+    "img" => "img/art/3.jpeg"
+);
+$products[104] = array(
+    "title" => "Pink Bunny",
+    "description" => "It's so fluffy I'm gonna die!",
+    "price" => 15,
+    "username" => "Andy",
+    "img" => "img/art/4.jpeg"
+);
+$products[105] = array(
+    "title" => "Greek Bust",
+    "description" => "I bet this dude looks even better from the front.",
+    "price" => 12,
+    "username" => "Andy",
+    "img" => "img/art/5.jpeg"
+);
+$products[106] = array(
+    "title" => "Psychedelic",
+    "description" => "Nice. You gotta have one of these to join the cool club.",
+    "price" => 30,
+    "username" => "Andy",
+    "img" => "img/art/6.jpeg"
+);
+$products[107] = array(
+    "title" => "Turkey",
+    "description" => "It ain't thanksgiving material, that's for sure.",
+    "price" => 28,
+    "username" => "Andy",
+    "img" => "img/art/7.jpeg"
+);
+$products[108] = array(
+    "title" => "Model of a Cow",
+    "description" => "Nothing screams class like a gigantic cow.",
+    "price" => 48,
+    "username" => "Andy",
+    "img" => "img/art/8.jpeg"
+);
+
+?>
