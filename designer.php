@@ -5,7 +5,7 @@ if (isset($_GET["username"])) {
 include("inc/".$username.".php"); 
 ?>
 <?php 
-$pageTitle = "Mike's Full Catalog of Shirts";
+$pageTitle = "Design Portfolio";
 $section = "design";
 include('inc/header.php'); ?>
 
@@ -15,8 +15,8 @@ include('inc/header.php'); ?>
 
 				<h1>Your Design Portfolio</h1>
 
-				<form>	
-					<input type="submit" value="Upload New Design" name="new_design">
+				<form method="post" action="upload.php">	
+					<input type="submit" value="Upload New Design">
 				</form>
 
 
