@@ -16,60 +16,60 @@ function get_list_view_html($product_id, $product) {
 
 $products = array();
 $products[101] = array(
-	"title" => "Makers' Lab Key Chain",
-	"description" => "A customizable key chain! So cool!",
+	"title" => "Cars",
+	"description" => "Small cars for the family.",
 	"price" => 18,
 	"username" => "Andy",
     "img" => "img/toys/1.jpeg"
 );
 $products[102] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Plumber",
+    "description" => "Bob the builder",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/toys/1.jpeg"
+    "img" => "img/toys/2.jpeg"
 );
 $products[103] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Mario",
+    "description" => "Say cheese!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/toys/1.jpeg"
+    "img" => "img/toys/3.jpeg"
 );
 $products[104] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Cube",
+    "description" => "Pretty cool huh!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/toys/1.jpeg"
+    "img" => "img/toys/4.jpeg"
 );
 $products[105] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Frog",
+    "description" => "It's a frog.",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/toys/1.jpeg"
+    "img" => "img/toys/5.jpeg"
 );
 $products[106] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Mechbot",
+    "description" => "Hide yo kids, hide yo wife, hide yo husband.",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/toys/1.jpeg"
+    "img" => "img/toys/6.jpeg"
 );
 $products[107] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/toys/1.jpeg"
+    "img" => "img/toys/7.jpeg"
 );
 $products[108] = array(
     "title" => "Makers' Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
-    "img" => "img/toys/1.jpeg"
+    "img" => "img/toys/8.jpeg"
 );
 
 ?>

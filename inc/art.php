@@ -16,14 +16,14 @@ function get_list_view_html($product_id, $product) {
 
 $products = array();
 $products[101] = array(
-	"title" => "Hand of Midas",
+	"title" => "Universe in a ball",
 	"description" => "Holy Moley this looks good!",
     "price" => 28,
     "username" => "Andy",
     "img" => "img/art/1.jpeg"
 );
 $products[102] = array(
-    "title" => "Wedding",
+    "title" => "Alphabet Ball",
     "description" => "Isn't that sweet?",
     "price" => 28,
     "username" => "Andy",
@@ -37,21 +37,21 @@ $products[103] = array(
     "img" => "img/art/3.jpeg"
 );
 $products[104] = array(
-    "title" => "Pink Bunny",
+    "title" => "Lamp",
     "description" => "It's so fluffy I'm gonna die!",
     "price" => 15,
     "username" => "Andy",
     "img" => "img/art/4.jpeg"
 );
 $products[105] = array(
-    "title" => "Greek Bust",
+    "title" => "Horse caricature",
     "description" => "I bet this dude looks even better from the front.",
     "price" => 12,
     "username" => "Andy",
     "img" => "img/art/5.jpeg"
 );
 $products[106] = array(
-    "title" => "Psychedelic",
+    "title" => "Skull",
     "description" => "Nice. You gotta have one of these to join the cool club.",
     "price" => 30,
     "username" => "Andy",
