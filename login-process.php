@@ -8,7 +8,7 @@
     //connect to database
     $servername = "localhost";
     $dbuser = "root";
-    $dbpass = "root";
+    $dbpass = "";
     $dbname = "myDB";
 
     // Create connection
