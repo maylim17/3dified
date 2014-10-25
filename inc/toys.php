@@ -20,56 +20,64 @@ $products[101] = array(
 	"title" => "Cars",
 	"description" => "Small cars for the family.",
 	"price" => 10,
-	"username" => "Andy",
+	"username" => "Acer",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/toys/1.jpeg"
 );
 $products[102] = array(
     "title" => "Plumber",
     "description" => "Bob the builder",
     "price" => 8,
-    "username" => "Andy",
+    "username" => "May",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/toys/2.jpeg"
 );
 $products[103] = array(
     "title" => "Mario",
     "description" => "Say cheese!",
     "price" => 8,
-    "username" => "Andy",
+    "username" => "Andai",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/toys/3.jpeg"
 );
 $products[104] = array(
     "title" => "Cube",
     "description" => "Pretty cool huh!",
     "price" => 12,
-    "username" => "Andy",
+    "username" => "Daniel",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/toys/4.jpeg"
 );
 $products[105] = array(
     "title" => "Frog",
     "description" => "Just a frog.",
     "price" => 6,
-    "username" => "Andy",
+    "username" => "Melvyn",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/toys/5.jpeg"
 );
 $products[106] = array(
     "title" => "Mechbot",
     "description" => "Hide yo kids, hide yo wife, hide yo husband.",
     "price" => 15,
-    "username" => "Andy",
+    "username" => "Nelson",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/toys/6.jpeg"
 );
 $products[107] = array(
     "title" => "Makers Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 3,
-    "username" => "Andy",
+    "username" => "Melson",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/toys/7.jpeg"
 );
 $products[108] = array(
     "title" => "Bangle",
     "description" => "A cute bangle.",
     "price" => 3,
-    "username" => "Andy",
+    "username" => "Tessa",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/toys/8.jpeg"
 );
 

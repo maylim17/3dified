@@ -33,15 +33,14 @@ include("inc/header.php"); ?>
 						<img src="<?php echo $product["img"]; ?>" alt="<?php echo $product["title"]; ?>">
 					</span>
 				</div>
-
+ 
 				<div class="shirt-details">
 
 					<h1><span class="price"><?php echo $product["title"]; ?></span></h1>
 
 					<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_s-xclick">
-						<input type="hidden" name="hosted_button_id" value="<?php echo $product["paypal"]; ?>">
-						<input type="hidden" name="item_name" value="<?php echo $product["title"]; ?>">
+						<input type="hidden" name="hosted_button_id" value="<?php echo $product['paypal'] ?>">
 						<table>
 						<tr>
 							<th>
