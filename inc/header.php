@@ -11,11 +11,11 @@
 
 		<div class="wrapper">
 
-			<h1 class="branding-title"><a href="./">Shirts 4 Mike</a></h1>
+			<h1 class="branding-title"><a href="./">3Dified</a></h1>
 
 			<ul class="nav">
-				<li class="shirts <?php if ($section == "shirts") { echo "on"; } ?>"><a href="shirts.php">Shirts</a></li>
-				<li class="contact <?php if ($section == "contact") { echo "on"; } ?>"><a href="contact.php">Contact</a></li>
+				<li class="shirts <?php if ($section == "shop") { echo "on"; } ?>"><a href="shop.php">Shop</a></li>
+				<li class="contact <?php if ($section == "design") { echo "on"; } ?>"><a href="design.php">Design</a></li>
 				<li class="cart"><a target="paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;business=Q6NFNPFRBWR8S&amp;display=1">Shopping Cart</a></li>
 			</ul>
 

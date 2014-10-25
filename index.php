@@ -1,19 +1,13 @@
 <?php 
-$pageTitle = "Unique T-shirts designed by a frog";
+$pageTitle = "3Dified";
 $section = "home";
+// if ($_GET["status"]==1) {
+// 	include('inc/header.php');
+// }
+// include('inc/header-signin.php');
 include('inc/header.php'); ?>
+
 		<div class="section banner">
-
-			<div class="wrapper">
-
-				<img class="hero" src="img/mike-the-frog.png" alt="Mike the Frog says:">
-				<div class="button">
-					<a href="shirts.php">
-						<h2>Hey, I&rsquo;m Mike!</h2>
-						<p>Check Out My Shirts</p>
-					</a>
-				</div>
-			</div>
 
 		</div>
 
