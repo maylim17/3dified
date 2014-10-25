@@ -43,7 +43,7 @@ include('inc/header.php'); ?>
 
                 <?php
                     //connect to database
-                    $servername = "localhost";
+                    $servername = "http://172.22.113.201/";
                     $dbuser = "root";
                     $dbpass = "root";
                     $dbname = "myDB";
