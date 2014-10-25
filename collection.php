@@ -12,6 +12,7 @@ include('inc/header.php'); ?>
 				<br><h2><?php echo "$collectionname" ?></h2>
 
 				<?php include("inc/$collectionname.php"); ?>
+				<?php //include("inc/dbinsert.php"); ?>
 				<ul class="products">
 					<?php 
 
@@ -23,6 +24,7 @@ include('inc/header.php'); ?>
 						echo $list_view_html;
 					?>								
 				</ul>
+
 
 			</div>
 
