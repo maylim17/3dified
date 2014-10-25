@@ -1,58 +1,14 @@
 <?php 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = trim($_POST["name"]);
-    $email = trim($_POST["email"]);
-    $message = trim($_POST["message"]);
-
-
-    if ($name == "" OR $email == "" OR $message == "") {
-        echo "You must specify a value for name, email address, and message.";
-        exit;
-    }
-
-    foreach( $_POST as $value ){
-        if( stripos($value,'Content-Type:') !== FALSE ){
-            echo "There was a problem with the information you entered.";    
-            exit;
-        }
-    }
-
-    if ($_POST["address"] != "") {
-        echo "Your form submission has an error.";
-        exit;
-    }
-
-    require_once("inc/phpmailer/class.phpmailer.php");
-    $mail = new PHPMailer();
-
-    if (!$mail->ValidateAddress($email)){
-        echo "You must specify a valid email address.";
-        exit;
-    }
-
-    $email_body = "";
-    $email_body = $email_body . "Name: " . $name . "<br>";
-    $email_body = $email_body . "Email: " . $email . "<br>";
-    $email_body = $email_body . "Message: " . $message;
-
-    $mail->SetFrom($email, $name);
-    $address = "orders@shirts4mike.com";
-    $mail->AddAddress($address, "Shirts 4 Mike");
-    $mail->Subject    = "Shirts 4 Mike Contact Form Submission | " . $name;
-    $mail->MsgHTML($email_body);
-
-    if(!$mail->Send()) {
-      echo "There was a problem sending the email: " . $mail->ErrorInfo;
-      exit;
-    }
-
-    header("Location: contact.php?status=thanks");
-    exit;
+    //receive username and password
+    $username = trim($_POST["username"]);
+    $password = trim($_POST["password"]);
 }
-?><?php 
-$pageTitle = "Contact Mike";
-$section = "contact";
+?>
+<?php 
+$pageTitle = "Login to 3dified";
+$section = "Login";
 include('inc/header.php'); ?>
 
     <div class="section page">
@@ -61,54 +17,63 @@ include('inc/header.php'); ?>
 
             <h1>Contact</h1>
 
-            <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
-                <p>Thanks for the email! I&rsquo;ll be in touch shortly!</p>
-            <?php } else { ?>
-
-                <p>I&rsquo;d love to hear from you! Complete the form to send me an email.</p>
-
-                <form method="post" action="contact.php">
+                <form method="post" action="login.php">
 
                     <table>
                         <tr>
                             <th>
-                                <label for="name">Name</label>
+                                <label for="username">Username</label>
                             </th>
                             <td>
-                                <input type="text" name="name" id="name">
+                                <input type="text" name="username" id="username" value="<?php echo "$username";?>">
                             </td>
                         </tr>
                         <tr>
                             <th>
-                                <label for="email">Email</label>
+                                <label for="password">Password</label>
                             </th>
                             <td>
-                                <input type="text" name="email" id="email">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <label for="message">Message</label>
-                            </th>
-                            <td>
-                                <textarea name="message" id="message"></textarea>
-                            </td>
-                        </tr> 
-                        <tr style="display: none;">
-                            <th>
-                                <label for="address">Address</label>
-                            </th>
-                            <td>
-                                <input type="text" name="address" id="address">
-                                <p>Humans (and frogs): please leave this field blank.</p>
+                                <input type="password" name="password" id="password">
                             </td>
                         </tr>                   
                     </table>
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Login">
 
                 </form>
 
-            <?php } ?>
+                <?php
+                    //connect to database
+                    $servername = "localhost";
+                    $dbuser = "root";
+                    $dbpass = "root";
+                    $dbname = "myDB";
+
+                    // Create connection
+                    $conn = new mysqli($servername, $dbuser, $dbpass, $dbname);
+                    // Check connection
+                    if ($conn->connect_error) {
+                        die("Connection failed: " . $conn->connect_error);
+                    }
+
+                    if ($username && $password) {               //test if both username and password is entered
+                        $sql="SELECT * FROM Users WHERE username='$username' AND password='$password'";
+                        $login = $conn->query($sql);
+                        if ($login->num_rows) {
+                            echo "Login Successful";
+                        }
+                        else if($username==NULL && $password) {     //if only password is entered
+                            echo "Please enter username";
+                        }
+                        else if($password==NULL && $username) {     //if only username is entered
+                            echo "Please enter password";
+                        }   
+                        else {
+                            echo "Bad Username/Password";
+                        }
+                    }
+
+                    $conn->close();
+                ?>
 
         </div>
 
