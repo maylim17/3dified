@@ -1,20 +1,3 @@
-<html>
-<body>
-<?php
-
-$pageTitle = "Search 3Dified";
-$section = "Search";
-include('inc/header.php');
-?>
-
-<div class="section shirts latest">
-	<div class="wrapper">
-
-		<form method="get" action="<?php $_SERVER['PHP_SELF']; ?>">
-			<br><input type="search" name="search" value="<?php echo $search; ?>"><br><br>
-			<input type="submit" name="submit" value="Search 3Dified!">
-		</form>
-
 		<?php 
 		$search = $_GET['search'];
 
@@ -66,10 +49,3 @@ include('inc/header.php');
     		return $output;
 		}
 	?>
-
-
-	</div>
-</div>
-
-</body>
-</html>

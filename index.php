@@ -19,6 +19,13 @@ include('inc/header.php');
 
 			<div class="wrapper">
 
+				<form method="get" action="<?php $_SERVER['PHP_SELF']; ?>">
+					<br><input type="search" name="search" value="<?php echo $search; ?>"><br><br>
+					<input type="submit" name="submit" value="Search 3Dified!">
+				</form>
+
+				<?php include('search.php'); ?>
+
 				<br><h2>Browse All Collections</h2>
 
 				<?php include("inc/collections.php"); ?>
