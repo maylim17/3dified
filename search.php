@@ -1,5 +1,5 @@
 <html>
 
 <?php
-//connection variables
-$servername = null;
+//receive search item
+$search = 

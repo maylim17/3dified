@@ -1,4 +1,0 @@
-designid|title|username|description|price|stlurl|ssurl
-001|design1|admin|lorem ipsum|1.50|design1.stl|ss1.jpg
-002|design2|user1|lorem ipsum1|2.50|design2.stl|ss2.jpg
-003|design3|user2|lorem ipsum2|3.50|design3.stl|ss3.jpg
