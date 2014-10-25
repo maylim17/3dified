@@ -65,8 +65,8 @@ $products[107] = array(
     "img" => "img/fashion/7.jpeg"
 );
 $products[108] = array(
-    "title" => "Makers&rsquo; Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Cool Ring",
+    "description" => "A customizable Ring",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/fashion/8.jpeg"
