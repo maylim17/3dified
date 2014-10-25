@@ -14,7 +14,7 @@
 
     foreach ($products as $item) {
         $sql = "INSERT INTO Designs (title, description, price, username, ssurl, collection) VALUES ('{$item["title"]}', '{$item["description"]}', '{$item["price"]}', '{$item["username"]}', '{$item["img"]}', '$collectionname')";
-        echo $sql."<br>";
+        //echo $sql."<br>";
         if ($conn->query($sql) === TRUE) {
            echo "New record created successfully";
         } 

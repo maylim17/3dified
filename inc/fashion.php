@@ -65,13 +65,12 @@ $products[107] = array(
     "img" => "img/fashion/7.jpeg"
 );
 $products[108] = array(
-    "title" => "Makers' Lab Key Chain",
+    "title" => "Makers&rsquo; Lab Key Chain",
     "description" => "A customizable key chain! So cool!",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/fashion/8.jpeg"
 );
 
-include 'dbinsert.php';
 
 ?>

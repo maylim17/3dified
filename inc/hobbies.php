@@ -38,7 +38,7 @@ $products[103] = array(
 );
 $products[104] = array(
     "title" => "Skull",
-    "description" => "Who doesn't like examining skulls?",
+    "description" => "Who doesn&rsquo;t like examining skulls?",
     "price" => 12,
     "username" => "Andy",
     "img" => "img/hobbies/4.jpeg"

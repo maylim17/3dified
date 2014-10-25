@@ -38,7 +38,7 @@ $products[103] = array(
 );
 $products[104] = array(
     "title" => "Limited Edition Artwork",
-    "description" => "Yes, I don't understand as well.",
+    "description" => "Yes, I don&rsquo;t understand as well.",
     "price" => 999,
     "username" => "Andy",
     "img" => "img/collectibles/4.jpeg"
@@ -58,16 +58,16 @@ $products[106] = array(
     "img" => "img/collectibles/6.jpeg"
 );
 $products[107] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
+    "title" => "Darth Vader Head",
+    "description" => "I am your father",
     "price" => 18,
     "username" => "Andy",
     "img" => "img/collectibles/7.jpeg"
 );
 $products[108] = array(
-    "title" => "Makers' Lab Key Chain",
-    "description" => "A customizable key chain! So cool!",
-    "price" => 18,
+    "title" => "Pokeball",
+    "description" => "Gotta catchem all!",
+    "price" => 19,
     "username" => "Andy",
     "img" => "img/collectibles/8.jpeg"
 );
