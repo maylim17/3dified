@@ -72,6 +72,5 @@ $products[108] = array(
     "img" => "img/fashion/8.jpeg"
 );
 
-include 'dbinsert.php';
 
 ?>

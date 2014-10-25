@@ -12,7 +12,7 @@ include('inc/header.php'); ?>
 				<br><h2><?php echo "$collectionname" ?></h2>
 
 				<?php include("inc/$collectionname.php"); ?>
-				<?php include("dbinsert.php"); ?>
+				<?php include("inc/dbinsert.php"); ?>
 				<ul class="products">
 					<?php 
 
