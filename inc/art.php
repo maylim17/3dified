@@ -25,7 +25,7 @@ $products[101] = array(
 );
 $products[102] = array(
     "title" => "Alphabet Ball",
-    "description" => "Isn't that sweet?",
+    "description" => "Isn&rsquo;t that sweet?",
     "price" => 28,
     "username" => "Andy",
     "img" => "img/art/2.jpeg"
