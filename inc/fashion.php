@@ -16,9 +16,9 @@ function get_list_view_html($product_id, $product) {
 
 $products = array();
 $products[101] = array(
-    "title" => "Designer Flats",
-    "description" => "Make a fashion statement. Like a boss!",
-    "price" => 59,
+    "title" => "Hearty Necklace",
+    "description" => "Guaranteed to break your heart",
+    "price" => 19,
     "username" => "Andy",
     "img" => "img/fashion/1.jpeg"
 );
