@@ -1,4 +1,4 @@
-		<?php 
+<?php 
 		$search = $_GET['search'];
 
 		if ($search) {
@@ -27,7 +27,7 @@
 				echo "<p>DESIGNS FOUND</p>";
 				echo '<ul class="products">';
 				while ($row = $result->fetch_assoc()) {
-					echo get_list_view_html($row["title"], $row["designid"], $row["ssurl"], $row["collection"]);
+					echo get_list_view_html_s($row["title"], $row["designid"], $row["ssurl"], $row["collection"]);
 				}
 				echo "</ul>";
 			}
@@ -38,7 +38,7 @@
 			$conn->close();
 		}
 
-		function get_list_view_html($title, $product_id, $img, $collection) {
+		function get_list_view_html_s($title, $product_id, $img, $collection) {
    			$output = "";
    			$output = $output . "<li>";
     		$output = $output . '<a href="design.php?collection=' . $collection . '&id=' . $product_id . '">';
