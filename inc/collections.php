@@ -17,56 +17,56 @@ function get_list_view_html($collection_id, $collection) {
 $collections = array();
 $collections[101] = array(
 	"name" => "Household",
-	"img" => "img/shirts/shirt-101.jpg",
+	"img" => "img/household/3.jpeg",
     "price" => 18,
     "paypal" => "9P7DLECFD4LKE",
     "sizes" => array("Small","Medium","Large","X-Large")
 );
 $collections[102] = array(
     "name" => "Lifestyle",
-    "img" => "img/shirts/shirt-101.jpg",
+    "img" => "img/lifestyle/6.jpeg",
     "price" => 18,
     "paypal" => "9P7DLECFD4LKE",
     "sizes" => array("Small","Medium","Large","X-Large")
 );
 $collections[103] = array(
     "name" => "Gifts",
-    "img" => "img/shirts/shirt-101.jpg",
+    "img" => "img/gifts/2.jpeg",
     "price" => 18,
     "paypal" => "9P7DLECFD4LKE",
     "sizes" => array("Small","Medium","Large","X-Large")
 );
 $collections[104] = array(
     "name" => "Collectibles",
-    "img" => "img/shirts/shirt-101.jpg",
+    "img" => "img/collectibles/8.jpeg",
     "price" => 18,
     "paypal" => "9P7DLECFD4LKE",
     "sizes" => array("Small","Medium","Large","X-Large")
 );
 $collections[105] = array(
     "name" => "Art",
-    "img" => "img/shirts/shirt-101.jpg",
+    "img" => "img/art/6.jpeg",
     "price" => 18,
     "paypal" => "9P7DLECFD4LKE",
     "sizes" => array("Small","Medium","Large","X-Large")
 );
 $collections[106] = array(
     "name" => "Hobbies",
-    "img" => "img/shirts/shirt-101.jpg",
+    "img" => "img/hobbies/1.jpeg",
     "price" => 18,
     "paypal" => "9P7DLECFD4LKE",
     "sizes" => array("Small","Medium","Large","X-Large")
 );
 $collections[107] = array(
     "name" => "Toys",
-    "img" => "img/shirts/shirt-101.jpg",
+    "img" => "img/toys/6.jpeg",
     "price" => 18,
     "paypal" => "9P7DLECFD4LKE",
     "sizes" => array("Small","Medium","Large","X-Large")
 );
 $collections[108] = array(
     "name" => "Fashion",
-    "img" => "img/shirts/shirt-101.jpg",
+    "img" => "img/fashion/2.jpeg",
     "price" => 18,
     "paypal" => "9P7DLECFD4LKE",
     "sizes" => array("Small","Medium","Large","X-Large")
