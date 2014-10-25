@@ -2,12 +2,14 @@
 <body>
 
 
-<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
-	<input type="text" name="search" value="Enter search term">
-	<input type="submit" name="submit" value="Submit">
-</form>
+
 
 <?php
+
+$pageTitle = "Search 3Dified";
+$section = "Search";
+include('inc/header.php');
+
 //connect to database
 $servername = "localhost";
 $username = "root";
@@ -42,6 +44,11 @@ while ($row = $result->fetch_assoc()) {
 
 $conn->close();
 ?>
+
+<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
+	<input type="search" name="search" value="Enter search term">
+	<input type="submit" name="submit" value="Submit">
+</form>
 
 </body>
 </html>
