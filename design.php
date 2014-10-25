@@ -1,5 +1,11 @@
 <?php 
 
+if (isset($_GET["username"])) {
+	$username = $_GET["username"];
+	
+	include("inc/".$username.".php"); 
+}
+
 if (isset($_GET["id"])) {
 	$product_id = $_GET["id"];
 	if (isset($products[$product_id])) {
