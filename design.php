@@ -3,7 +3,7 @@
 if (isset($_GET["collection"])) {
 	$collectionname = $_GET["collection"];
 } else {
-	header("Location: designs.php");
+	header("Location: shop.php");
 	exit();
 }
 
@@ -16,7 +16,7 @@ if (isset($_GET["id"])) {
 	}
 }
 if (!isset($product)) {
-	header("Location: designs.php");
+	header("Location: shop.php");
 	exit();
 }
 
