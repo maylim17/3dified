@@ -31,14 +31,14 @@ $products[102] = array(
 );
 $products[103] = array(
     "title" => "Moose",
-    "description" => "Who wouldn't want a moose in their house? I know I would.",
+    "description" => "A lovely moose.",
     "price" => 15,
     "username" => "Andy",
     "img" => "img/art/3.jpeg"
 );
 $products[104] = array(
     "title" => "Lamp",
-    "description" => "It's so fluffy I'm gonna die!",
+    "description" => "Such beauty and elegance!",
     "price" => 15,
     "username" => "Andy",
     "img" => "img/art/4.jpeg"
@@ -59,7 +59,7 @@ $products[106] = array(
 );
 $products[107] = array(
     "title" => "Turkey",
-    "description" => "It ain't thanksgiving material, that's for sure.",
+    "description" => "For thanksgiving.",
     "price" => 28,
     "username" => "Andy",
     "img" => "img/art/7.jpeg"
