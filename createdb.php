@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+/*$servername = "localhost";
 $username = "root";
 $password = "root";
 
@@ -18,13 +18,13 @@ if ($conn->query($sql) === TRUE) {
     echo "Error creating database: " . $conn->error;
 }
 
-$conn->close();
+$conn->close();*/
 ?>
 
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 $dbname = "myDB";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -50,7 +50,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Error creating table: " . $conn->error;
 }
 
-$sql = "CREATE TABLE Users (
+/*$sql = "CREATE TABLE Users (
 	username VARCHAR(20) PRIMARY KEY,
 	password VARCHAR(20),
 	email VARCHAR(100)
@@ -59,7 +59,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Table Users created successfully";
 } else {
     echo "Error creating table: " . $conn->error;
-}
+}*/
 
 $sql = "CREATE TABLE Collections (
 	collections VARCHAR(20) PRIMARY KEY,
