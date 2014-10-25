@@ -1,11 +1,15 @@
 <?php 
 $pageTitle = "3Dified";
 $section = "home";
+?>
+
+<?php
 // if ($_GET["status"]==1) {
 // 	include('inc/header.php');
 // }
 // include('inc/header-signin.php');
-include('inc/header.php'); ?>
+include('inc/header.php'); 
+?>
 
 		<div class="section banner">
 

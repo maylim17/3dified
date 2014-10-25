@@ -3,7 +3,6 @@
 function get_list_view_html($product_id, $product) {
     
     $output = "";
-    $login = "true";
 
     $output = $output . "<li>";
     $output = $output . '<a href="product.php?login=' . $login . '&collection=art&id=' . $product_id . '">';
@@ -26,7 +25,7 @@ $products[101] = array(
 );
 $products[102] = array(
     "title" => "Alphabet Ball",
-    "description" => "Isn't that sweet?",
+    "description" => "Isn&rsquo;t that sweet?",
     "price" => 28,
     "username" => "Tommy",
     "paypal" => "M9DLBUJMGBTUL",

@@ -3,7 +3,6 @@
 function get_list_view_html($product_id, $product) {
     
     $output = "";
-    $login = "true";
 
     $output = $output . "<li>";
     $output = $output . '<a href="product.php?login=' . $login . '&collection=Collectibles&id=' . $product_id . '">';
