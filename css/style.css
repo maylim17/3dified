@@ -466,6 +466,11 @@ input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
+input[type="search"] {
+    width: 370px;
+    height: 40px;
+}
+
 /*
  * Removes inner padding and border in FF3+.
  */
