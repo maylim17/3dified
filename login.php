@@ -7,9 +7,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 <?php 
+
+
 $pageTitle = "Login to 3dified";
 $section = "Login";
-include('inc/header.php'); ?>
+include('inc/header.php'); 
+
+$login = "true";
+
+?>
+
 
     <div class="section page">
 
@@ -17,7 +24,8 @@ include('inc/header.php'); ?>
 
             <h1>Login to 3Dified</h1>
 
-                <form method="post" action="login.php">
+
+                <form method="post" action='<?php echo "index.php?login=".$login; ?>'>
 
                     <table>
                         <tr>

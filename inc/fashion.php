@@ -3,9 +3,10 @@
 function get_list_view_html($product_id, $product) {
     
     $output = "";
+    $login = "true";
 
     $output = $output . "<li>";
-    $output = $output . '<a href="product.php?collection=Fashion&id=' . $product_id . '">';
+    $output = $output . '<a href="product.php?login=' . $login . '&collection=Fashion&id=' . $product_id . '">';
     $output = $output . '<img src="' . $product["img"] . '">';
     $output = $output . "<p>".$product['title']."</p>";
     $output = $output . "</a>";

@@ -3,9 +3,10 @@
 function get_list_view_html($collection_id, $collection) {
     
     $output = "";
+    $login = "true";
 
     $output = $output . "<li>";
-    $output = $output . '<a href="collection.php?collection=' . $collection["name"] . '">';
+    $output = $output . '<a href="collection.php?login=' . $login . '&collection=' . $collection["name"] . '">';
     $output = $output . '<img src="' . $collection["img"] . '" alt="' . $collection["name"] . '">';
     $output = $output . "<p>".$collection['name']."</p>";
     $output = $output . "</a>";
