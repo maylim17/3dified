@@ -20,56 +20,64 @@ $products[101] = array(
 	"title" => "Leaf shaped lamp cover",
 	"description" => "Beatifully designed lamp cover",
 	"price" => 18,
-	"username" => "Andy",
+	"username" => "John",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/lifestyle/1.jpeg"
 );
 $products[102] = array(
     "title" => "Handphone Holder",
     "description" => "Holds phone",
     "price" => 18,
-    "username" => "Andy",
+    "username" => "Donny",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/lifestyle/2.jpeg"
 );
 $products[103] = array(
     "title" => "Burger Ornament",
     "description" => "Please do not eat",
     "price" => 18,
-    "username" => "Andy",
+    "username" => "Mary",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/lifestyle/3.jpeg"
 );
 $products[104] = array(
     "title" => "Iphone Cover",
     "description" => "Red phone cover",
     "price" => 18,
-    "username" => "Andy",
+    "username" => "Andrew",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/lifestyle/4.jpeg"
 );
 $products[105] = array(
     "title" => "Lamp Cover",
     "description" => "Nuff said",
     "price" => 18,
-    "username" => "Andy",
+    "username" => "Andreas",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/lifestyle/5.jpeg"
 );
 $products[106] = array(
     "title" => "Handphone Stand+Amp",
     "description" => "Holds phone. Amps Sound",
     "price" => 18,
-    "username" => "Andy",
+    "username" => "Anderson",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/lifestyle/6.jpeg"
 );
 $products[107] = array(
     "title" => "Pencil Holder",
     "description" => "Blue pencil holder",
     "price" => 18,
-    "username" => "Andy",
+    "username" => "Daniel",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/lifestyle/7.jpeg"
 );
 $products[108] = array(
     "title" => "Blue Spinwheel",
     "description" => "Cute little spinwheel",
     "price" => 18,
-    "username" => "Andy",
+    "username" => "Ann",
+    "paypal" => "M9DLBUJMGBTUL",
     "img" => "img/lifestyle/8.jpeg"
 );
 
