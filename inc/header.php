@@ -1,6 +1,8 @@
 <?php
-if (isset($_GET["login"])) {
-	$login = $_GET["login"];
+session_start();
+
+if ($_SESSION['logon']) {
+	$login = "true";
 } else {
 	$login = "false";
 }
