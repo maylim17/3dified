@@ -58,7 +58,7 @@ $products[106] = array(
     "img" => "img/household/6.jpeg"
 );
 $products[107] = array(
-<<<<<<< HEAD
+<<<<<< HEAD
     "title" => "Tube Roller",
     "description" => "Squeeze out every last drop",
 =======
