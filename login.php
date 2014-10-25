@@ -15,7 +15,7 @@ include('inc/header.php'); ?>
 
         <div class="wrapper">
 
-            <h1>Contact</h1>
+            <h1>Login to 3Dified</h1>
 
                 <form method="post" action="login.php">
 
