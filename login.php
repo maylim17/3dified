@@ -13,8 +13,6 @@ $pageTitle = "Login to 3dified";
 $section = "Login";
 include('inc/header.php'); 
 
-$login = "true";
-
 ?>
 
 

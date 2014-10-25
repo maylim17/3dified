@@ -23,18 +23,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit;
 }
 ?><?php 
-$pageTitle = "Contact Mike";
-$section = "contact";
+$pageTitle = "Upload Design";
+$section = "design";
 include('inc/header.php'); ?>
 
     <div class="section page">
 
         <div class="wrapper">
 
-            <h1>Upload</h1>
+            <h1>Upload Your Design</h1>
 
             <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
-                <p>Thanks for your design! We&rsquo;ll post it shortly!</p>
+                <p>Thank you for your design! We&rsquo;ll post it shortly!</p>
             <?php } else { ?>
 
                 <p>We&rsquo;d love to see designs from you! Complete the form to submit your design.</p>
@@ -44,7 +44,7 @@ include('inc/header.php'); ?>
                     <table>
                         <tr>
                             <th>
-                                <label for="nameOfProduct">Name of Product</label>
+                                <label for="nameOfProduct">Design Title</label>
                             </th>
                             <td>
                                 <input type="text" name="nameOfProduct" id="nameOfProduct">
@@ -52,7 +52,7 @@ include('inc/header.php'); ?>
                         </tr>
                         <tr>
                             <th>
-                                <label for="designURL">3D Design file URL</label>
+                                <label for="designURL">STL File URL</label>
                             </th>
                             <td>
                                 <input type="text" name="designURL" id="designURL">
@@ -67,7 +67,7 @@ include('inc/header.php'); ?>
                             </td>
                         </tr> 
                     </table>
-                    <input type="submit" value="Send">
+                    <input type="submit" value="Submit">
 
                 </form>
 

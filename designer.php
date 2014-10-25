@@ -15,7 +15,7 @@ include('inc/header.php'); ?>
 
 				<h1>Your Design Portfolio</h1>
 
-				<form method="post" action="upload.php">	
+				<form method="get" action="upload.php">	
 					<input type="submit" value="Upload New Design">
 				</form>
 
