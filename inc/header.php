@@ -36,7 +36,7 @@ $os = "Mac";
 				<ul class="nav">
 					<?php if ($login == "true") { echo '
 					<li class="shirts '; if ($section == "shop") { echo "on"; } echo '"><a href="shop.php?login=true">Shop</a></li>'.
-					'<li class="contact '; if ($section == "design") { echo "on"; } echo '"><a href="designer.php?login=true&username=guest">Design</a></li>'.
+					'<li class="contact '; if ($section == "design") { echo "on"; } echo '"><a href="designer.php?username='.$_SESSION["user"].'">Design</a></li>'.
 					'<li class="cart"><a href="profile.php">Profile</a></li>
 					'; }
 					else { echo '

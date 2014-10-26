@@ -2,7 +2,6 @@
 $pageTitle = "3Dified";
 $section = "shop";
 //$collectionname = trim($_GET["collection"]);
-$collectionname = "Gifts";
 include('inc/header.php'); ?>
 
 

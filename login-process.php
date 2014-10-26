@@ -8,7 +8,12 @@
     //connect to database
     $servername = "localhost";
     $dbuser = "root";
-    $dbpass = "root";
+    if (strpos($user_agent, "Mac") !== FALSE) {
+        $dbpass = "";
+    }
+        else {
+        $dbpass = "root";
+    }
     $dbname = "myDB";
 
     // Create connection
@@ -24,6 +29,7 @@
         if ($login->num_rows) {
             //echo "Login Successful";
             $_SESSION['logon'] = TRUE;
+            $_SESSION['user'] = $username;
             header('Location: index.php');
             exit();
         }
