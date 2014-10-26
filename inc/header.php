@@ -6,6 +6,15 @@ if ($_SESSION['logon']) {
 } else {
 	$login = "false";
 }
+
+//check if windows or mac, for developing purpose only
+$user_agent = getenv("HTTP_USER_AGENT");
+
+if(strpos($user_agent, "Win") !== FALSE)
+$os = "Windows";
+else if(strpos($user_agent, "Mac") !== FALSE)
+$os = "Mac";
+
 ?>
 
 <html>

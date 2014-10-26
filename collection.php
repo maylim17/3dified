@@ -18,7 +18,12 @@ include('inc/header.php'); ?>
 
 					$servername = "localhost";
 					$username = "root";
-					$password = "root";
+					if ($os == "Mac") {
+						$password = "root";
+					}
+					else {
+						$password = "";
+					}
 					$dbname = "myDB";
 
 					// Create connection

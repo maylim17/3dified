@@ -6,7 +6,12 @@
 			//connect to database
 			$servername = "localhost";
 			$username = "root";
-			$password = "root";
+			if ($os == "Mac") {
+				$password = "root";
+			}
+			else {
+				$password = "";
+			}
 			$dbname = "myDB";
 
 			// Create connection
@@ -41,7 +46,7 @@
 		function get_list_view_html_s($title, $product_id, $img, $collection) {
    			$output = "";
    			$output = $output . "<li>";
-    		$output = $output . '<a href="design.php?&id=' . $product_id . '">';
+    		$output = $output . '<a href="product.php?&id=' . $product_id . '">';
     		$output = $output . '<img src="' . $img . '">';
     		$output = $output . "<p>$title</p>";
     		$output = $output . "</a>";

@@ -10,7 +10,13 @@ else {
 
 	$servername = "localhost";
 	$username = "root";
-	$password = "root";
+	if (strpos($user_agent, "Mac") !== FALSE) {
+		$password = "";
+	}
+		else {
+		$password = "root";
+	}
+	$dbname = "myDB";
 	$dbname = "myDB";
 
 	// Create connection

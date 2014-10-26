@@ -2,7 +2,12 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "root";
+if ($os == "Mac") {
+    $password = "root";
+}
+else {
+    $password = "";
+}
 $dbname = "myDB";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
