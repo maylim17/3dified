@@ -34,11 +34,12 @@
 				while ($row = $result->fetch_assoc()) {
 					echo get_list_view_html_s($row["title"], $row["designid"], $row["ssurl"], $row["collection"]);
 				}
-				echo "</ul>";
+				echo "</ul><br>";
 			}
 			else {
-				echo "<p>No designs relating to '$search' found.</p>";
+				echo "<p>No designs relating to '$search' found.</p><br>";
 			}
+
 
 			$conn->close();
 		}

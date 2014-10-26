@@ -51,7 +51,7 @@ include('inc/header.php');
          
 
 <form method="post" action="logout.php">	
-					<input type="submit" value="Log Out">
+					<input type="submit" value="Log Out"><br><br>
 				</form>
                
 
