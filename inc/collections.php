@@ -1,12 +1,27 @@
 <?php
 
-function get_list_view_html($collection_id, $collection) {
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "myDB";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+			// Check connection
+			if ($conn->connect_error) {
+			    die("Connection failed: " . $conn->connect_error);
+			} 
+
+$sql = "SELECT * FROM Collections";
+$collections = $conn->query($sql);
+$conn->close();
+
+
+function get_list_view_html($collection) {
     
     $output = "";
-    $login = "true";
 
     $output = $output . "<li>";
-    $output = $output . '<a href="collection.php?login=' . $login . '&collection=' . $collection["name"] . '">';
+    $output = $output . '<a href="collection.php?collection=' . $collection["name"] . '">';
     $output = $output . '<img src="' . $collection["img"] . '" alt="' . $collection["name"] . '">';
     $output = $output . "<p>".$collection['name']."</p>";
     $output = $output . "</a>";

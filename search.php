@@ -41,7 +41,7 @@
 		function get_list_view_html_s($title, $product_id, $img, $collection) {
    			$output = "";
    			$output = $output . "<li>";
-    		$output = $output . '<a href="design.php?collection=' . $collection . '&id=' . $product_id . '">';
+    		$output = $output . '<a href="design.php?&id=' . $product_id . '">';
     		$output = $output . '<img src="' . $img . '">';
     		$output = $output . "<p>$title</p>";
     		$output = $output . "</a>";

@@ -11,15 +11,31 @@ include('inc/header.php'); ?>
 
 				<br><h2><?php echo "$collectionname" ?></h2>
 
-				<?php include("inc/$collectionname.php"); ?>
+				<?php include("inc/products.php"); ?>
 				<?php //include("inc/dbinsert.php"); ?>
 				<ul class="products">
 					<?php 
 
-						$total_products = count($products);
+					$servername = "localhost";
+					$username = "root";
+					$password = "root";
+					$dbname = "myDB";
+
+					// Create connection
+					$conn = new mysqli($servername, $username, $password, $dbname);
+					// Check connection
+					if ($conn->connect_error) {
+			   		 	die("Connection failed: " . $conn->connect_error);
+					} 
+
+					$sql = "SELECT * FROM Designs WHERE collection='$collectionname'";
+					$products = $conn->query($sql);
+					$conn->close();
+
+						//$total_products = count($products);
 						$list_view_html = "";
-						foreach($products as $product_id => $product) { 
-							$list_view_html = get_list_view_html($product_id,$product) . $list_view_html;
+						foreach($products as $product) { 
+							$list_view_html = get_list_view_html($product) . $list_view_html;
 						}
 						echo $list_view_html;
 					?>								

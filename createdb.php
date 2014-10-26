@@ -24,7 +24,7 @@ $conn->close();*/
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "myDB";
 
 $conn = new mysqli($servername, $username, $password, $dbname);

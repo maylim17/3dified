@@ -16,10 +16,10 @@ include('inc/header.php'); ?>
 				<ul class="products">
 					<?php 
 
-						$total_collections = count($collections);
+						//$total_collections = count($collections);
 						$list_view_html = "";
-						foreach($collections as $collection_id => $collection) { 
-							$list_view_html = get_list_view_html($collection_id,$collection) . $list_view_html;
+						foreach($collections as $collection) { 
+							$list_view_html = get_list_view_html($collection) . $list_view_html;
 						}
 						echo $list_view_html;
 					?>								

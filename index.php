@@ -28,14 +28,14 @@ include('inc/header.php');
 
 				<br><h2>Browse All Collections</h2>
 
-				<?php include("inc/collections.php"); ?>
+				<?php include('inc/collections.php'); ?>
 				<ul class="products">
 					<?php 
 
-						$total_collections = count($collections);
+						//$total_collections = count($collections);
 						$list_view_html = "";
-						foreach($collections as $collection_id => $collection) { 
-							$list_view_html = get_list_view_html($collection_id,$collection) . $list_view_html;
+						foreach($collections as $collection) { 
+							$list_view_html = get_list_view_html($collection) . $list_view_html;
 						}
 						echo $list_view_html;
 					?>								
