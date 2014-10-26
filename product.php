@@ -1,23 +1,32 @@
 <?php 
 
-if (isset($_GET["collection"])) {
-	$collectionname = $_GET["collection"];
-	include("inc/$collectionname.php");
-} else {
-	$collectionname = 0;
-}
-
 if (isset($_GET["id"])) {
-	$product_id = $_GET["id"];
-	if (isset($products[$product_id])) {
-		$product = $products[$product_id];
-	}
+	$product_id=$_GET["id"];
 }
-
-if (!isset($product)) {
+else {
 	header("Location: shop.php");
 	exit();
-}
+} 
+
+	$servername = "localhost";
+	$username = "root";
+	$password = "root";
+	$dbname = "myDB";
+
+	// Create connection
+	$conn = new mysqli($servername, $username, $password, $dbname);
+	// Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	} 
+
+	$sql = "SELECT * FROM Designs WHERE designid=$product_id";
+	$producti = $conn->query($sql);
+	$product = $producti->fetch_assoc();
+
+	$conn->close();
+
+$section = "product";
 
 $section = "shop";
 $pageTitle = $product["title"];
@@ -30,7 +39,7 @@ include("inc/header.php"); ?>
 				<br>
 				<div class="shirt-picture">
 					<span>
-						<img src="<?php echo $product["img"]; ?>" alt="<?php echo $product["title"]; ?>">
+						<img src="<?php echo $product["ssurl"]; ?>" alt="<?php echo $product["title"]; ?>">
 					</span>
 				</div>
  

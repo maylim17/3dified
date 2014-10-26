@@ -5,7 +5,7 @@ function get_list_view_html($product) {
     $output = "";
 
     $output = $output . "<li>";
-    $output = $output . '<a href="design.php?id=' . $product["designid"] . '">';
+    $output = $output . '<a href="product.php?id=' . $product["designid"] . '">';
     $output = $output . '<img src="' . $product["ssurl"] . '" alt="' . $product["title"] . '">';
     $output = $output . "<p>".$product['title']."</p>";
     $output = $output . "</a>";
